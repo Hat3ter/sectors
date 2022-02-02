@@ -1,0 +1,38 @@
+.App {
+    font-size: 14px;
+    font-family: "Times New Roman", serif;
+    margin-left: 10px;
+}
+
+.select {
+    width: 333px;
+    height: 88px;
+    font-family: "Times New Roman", serif;
+}
+
+.container {
+    margin: 5px;
+}
+
+.editForm {
+    margin: 15px;
+}
+
+
+.button {
+    margin: 5px;
+}
+
+.warningButton {
+    background-color: #d66060;
+    color: aliceblue;
+}
+
+.info {
+    margin: 20px;
+    color: #d66060;
+    font-size: 12px;
+}
+.displayNone {
+    display:none;
+}
