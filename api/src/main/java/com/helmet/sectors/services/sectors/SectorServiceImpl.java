@@ -29,8 +29,7 @@ public class SectorServiceImpl implements SectorService {
 	@Override
 	public List<SectorDto> getSectors() {
 
-		List<Sector> rootSectors = repository.findRootSectors();
-		return rootSectors.stream()
+		return repository.findRootSectors().stream()
 				.map(SectorConverter.INSTANCE::convert)
 				.collect(Collectors.toList());
 	}
